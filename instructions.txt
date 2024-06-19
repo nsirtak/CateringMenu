@@ -1,0 +1,48 @@
+INSTRUCTIONS
+
+You're going to set up a program to provide customers with estimates for your special event catering services.
+
+Three things will affect the estimate:
+	1. Which package the customer chooses (budget, classic, or deluxe)
+	2. Which cuisine is selected (costs per guest vary)
+	3. How many guests they are expecting (must be from 20-400 inclusive)
+
+Let's break it down.
+
+CUISINES - beverages, appetizers, bread, salad, entrees, sides, desserts
+	1. Italian - soda/wine/champagne, bruschetta/antipasto kabobs, focaccia, Sicilian, spaghetti bolognese/chicken fettucine alfredo, green beans/stuffed artichokes, spumoni/cannoli/tiramisu
+	2. French - soda/wine/champagne, green olive tapenade/charcuterie board, ficelle, salade lyonnaisse, chicken marsala/filet mignon, potato gratin/ratatouille, macarons/chocolate mousse/creme brulee
+	3. Mexican - soda/beer/wine, nacho bar/empanadas, bolillo, chopped cilantro lime, chicken fajitas/mole poblano, fiesta rice/street corn, chocolate churros/tres leches cake/sopapilla cheesecake
+	4. Thai - soda/beer/wine, corn fritters/spring rolls, roti, glass noodle (yum woon sen), red curry chicken/sweet chili salmon, pad thai/chicken satay, coconut ice cream/mango sticky rice/pumpkin & coconut custard 
+
+PACKAGES - What's included?
+	1. Budget - first of 3 beverages, bread, first entree, first side, first of 3 desserts
+	2. Classic - first 2 of 3 beverages, first appetizer, bread, salad, second entree, both sides, first 2 of 3 desserts
+	3. Deluxe - everything (yes, everything)
+
+COSTS BY CUISINE AND PACKAGE (per plate)
+	1. Italian - $20/$47/$78
+	2. French - $24/$61/$99
+	3. Mexican - $19/$42/$69
+	4. Thai - $22/$50/$81
+
+So we need objects for each of the cuisines, each with the same properties (beverages, appetizers, etc). Some of the cuisine object properties will hold arrays of food items, and some will hold only one food item. You also need one more property to hold the three costs per package.
+
+For each package, you will need an object with a name and a method (helper function) to pull the correct food items from the customer's selected cuisine.
+
+Create an array to collect all cuisine objects and another array to collect all package objects.
+
+The cost per guest will need to be multiplied by the number of expected guests for the total estimated cost.
+
+You'll need to present the following to the customer in a well-formatted report:
+ - Customer name
+ - Number of guests they expect
+ - Which package they selected
+ - Which cuisine they selected
+ - The menu, categorized with line items
+ - The total price per plate
+ - The total estimate to feed all guests
+
+See the file sample-estimate.txt for an example.
+
+The program should be able to loop back around to the beginning if the customer wants a different estimate. They do not need to give their name or number of guests again, but they can change the package and the cuisine.

@@ -1,0 +1,29 @@
+(The estimate you provide to the customer should look something like this... you can change it around a bit if you want, just make sure all the required information is there and it is nicely formatted and easy to read. Remember that it will contain different information in the middle depending on the package.)
+
+
+**********************************
+** Carrie's Catering - Estimate **
+**********************************
+
+Customer: Kevin Bacon
+Number of Guests: 120
+
+Package: Classic
+Cuisine: Mexican
+
+MENU
+------------------------------------------------
+Beverages: soda and beer
+Appetizers: nacho bar
+Bread: bolillo
+Salad: chopped cilantro lime
+Entrees: mole poblano
+Sides: fiesta rice & street corn
+Desserts: chocolate churros and tres leches cake
+------------------------------------------------
+
+Cost per plate: $42
+Total estimate for event: $5040
+
+Any questions about your estimate? 
+Call Darcy at 314-555-4928. 
